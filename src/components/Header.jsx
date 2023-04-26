@@ -39,7 +39,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between pl-[60px] pr-[30px] py-3 items-center fixed w-full bg-white">
+    <div className="flex justify-between pl-[60px] pr-[30px] py-3 items-center fixed w-full z-20 bg-white">
       <img src={logo} alt="logo" />
 
       <div onClick={mobileHandler} className="block md:hidden">

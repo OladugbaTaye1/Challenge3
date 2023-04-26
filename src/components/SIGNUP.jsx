@@ -87,7 +87,7 @@ const login =() => {
                     </div>
                 </div>
                 <div className="text-center">
-                     <button className="bg-[#022B69] font-bold text-white  px-[60px] py-[5px] rounded-r-lg hover:bg-[#1AD5FE]">Log in</button>
+                     <button className="bg-[#022B69] font-bold text-white  px-[60px] py-[5px] rounded-r-lg hover:bg-[#1AD5FE]">Sign  Up</button>
                 </div>
                 </Form>)}
                 </Formik>

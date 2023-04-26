@@ -13,7 +13,7 @@ const login =() => {
       });
       
     return(
-        <div className="bg-[#F4F8FC] md:flex sm:grid justify-center py-[80px]">
+        <div className="bg-[#F4F8FC] md:flex grid justify-center py-[80px]">
             <div className="pr-[60px]">
             <Link to="/"><img src={logo} alt="" className="pb-[30px]"/> </Link>
                 <h1 className="font-bold text-[#022B69] text-5xl pb-[25px]">Welcome Back,</h1>
@@ -21,7 +21,7 @@ const login =() => {
             </div>
 
             <div className="bg-[#FFFFFF] px-[50px] py-[50px] rounded-r-lg">
-                <h1 className="font-bold text-3xl text-[#022B69] px-[50px] pb-[20px]">Login to your account</h1>
+                <h1 className="font-bold text-3xl text-[#022B69] md:px-[50px] pb-[20px]">Login to your account</h1>
                 <Formik
           initialValues={{
             email: "",
@@ -53,7 +53,9 @@ const login =() => {
                         <p>New user? Register</p>
                     </div>
                 </div>
-                <button className="bg-[#022B69] font-bold text-white ml-[130px] px-[60px] py-[8px] rounded-r-lg hover:bg-[#1AD5FE]">Log in</button>
+                <div className="text-center">
+                     <button className="bg-[#022B69] font-bold text-white  px-[60px] py-[5px] rounded-r-lg hover:bg-[#1AD5FE]">Log in</button>
+                </div>
                 </Form>)}
                 </Formik>
             </div>
