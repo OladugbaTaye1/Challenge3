@@ -14,19 +14,19 @@ const Hsession4 =() => {
                 <div className="bg-[#fff] text-[#022B69] grid items-center mb-[5px] mr-[40px] shadow-lg pl-[10px] pt-[5px] pb-[2px] hover:bg-[blue]">
                     <img src={finance} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px] pb-[15px]">Financial Stablity</h1>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
                 </div>
 
                 <div className="bg-[#fff] text-[#022B69] grid items-center mb-[5px] mr-[40px] shadow-lg pl-[10px] pt-[5px] pb-[2px] hover:bg-[blue]">
                     <img src={payment} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px] pb-[15px]">Swift Payment</h1>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
                 </div>
 
                 <div className="bg-[#fff] text-[#022B69] grid items-center mb-[5px] mr-[40px] shadow-lg pl-[10px] pt-[5px] pb-[2px] hover:bg-[blue]">
                     <img src={use} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px] pb-[15px]">Easy to use</h1>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Our Payment gateway is secured with military grade encryption </p>
                 </div>
             </div>
         </div>

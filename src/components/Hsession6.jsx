@@ -12,8 +12,8 @@ const Hsession3 =() => {
 
             <div className="text-center">
                 <h1 className="font-semibold text-4xl text-[#022B69] pb-[40px]"> Invest.Earn</h1>
-                <p className="text-base w-[369px] pb-[60px]">Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes.</p>
-                <div className="flex items-center">
+                <p className="text-base md:w-[369px] pb-[60px]">Our Company  non pretium eget etiam tempus. Vitae sollicitudin in vulputate montes.</p>
+                <div className="md:flex items-center">
                     <img src={googleplay} alt="" className="pb-[15px] pr-[15px]" />
                     <img src={appstore} alt="" />
                 </div>

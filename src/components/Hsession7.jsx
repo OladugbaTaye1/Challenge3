@@ -56,21 +56,21 @@ const Hsession7 =() => {
                     <img src={img1} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px]">Kolawole Tobi</h1>
                     <img src={quote} alt="" className="pl-[80px] pt-[0px] pb-[15px]"/>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
                 </div>
 
                 <div className="bg-[#fff] text-[#022B69] grid items-center mb-[5px] pr-[10px] rounded-lg mr-[40px] shadow-lg pl-[10px] pt-[5px] pb-[2px]">
                     <img src={img2} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px]">Kolawole Tobi</h1>
                     <img src={quote} alt="" className="pl-[80px] pt-[0px] pb-[15px]"/>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
                 </div>
 
                 <div className="bg-[#fff] text-[#022B69] grid items-center mb-[5px] pr-[10px] rounded-lg mr-[40px] shadow-lg pl-[10px] pt-[5px] pb-[2px]">
                     <img src={img3} alt="" className="pl-[70px] pt-[20px] pb-[10px]"/>
                     <h1 className="font-bold pl-[45px]">Kolawole Tobi</h1>
                     <img src={quote} alt="" className="pl-[80px] pt-[0px] pb-[15px]"/>
-                    <p className="w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
+                    <p className="md:w-[234px] pl-[15px] pb-[30px]">Ultricies quis commodo ac at sed at sagittis risus ultrices. A rhoncus in adipiscing malesua.</p>
                 </div>
             </div></SwiperSlide>
       

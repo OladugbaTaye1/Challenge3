@@ -23,7 +23,7 @@ const Hsession4 = () => {
                     <div className="bg-[#fff] text-black text-center items-center mb-[5px] mr-[10px] shadow-lg pl-[0px] pt-[5px] pb-[2px]">
                         <h1 className="font-semibold pt-[15px] text-4xl pb-[15px]">Basic</h1>
                         <h1 className="font-bold pl-[15px] text-[#022B69] pb-[15px]">7% for 2month</h1>
-                        <p className="w-[381px] px-[22px] pb-[20px]">Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
+                        <p className="md:w-[381px] px-[22px] pb-[20px]">Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
                         <button className="bg-[#0000FF] text-white px-[70px] mb-[30px] py-1 rounded-xl hover:bg-[#1AD5FE]">Get Started</button>
                     </div>
 
@@ -57,7 +57,7 @@ const Hsession4 = () => {
                     <div className="bg-[#fff] text-black text-center items-center mb-[5px] shadow-lg pl-[0px] pt-[5px] pb-[2px]">
                         <h1 className="font-semibold pt-[15px] text-4xl pb-[15px]">Plus</h1>
                         <h1 className="font-bold pl-[15px] text-[#022B69] pb-[15px]">22% for 6month</h1>
-                        <p className="w-[381px] px-[22px] pb-[20px]">Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
+                        <p className="md:w-[381px] px-[22px] pb-[20px]">Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
                         <button className="bg-[#0000FF] text-white px-[70px] mb-[30px] py-1 rounded-xl hover:bg-[#1AD5FE]">Get Started</button>
                     </div>
 
