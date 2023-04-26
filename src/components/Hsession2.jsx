@@ -1,5 +1,5 @@
 import React from "react"
-import invest from "../assets/invest.png"
+import invest from "../assets/Invest.png"
 import save from "../assets/save.png"
 import grow from "../assets/grow.png"
 const Hsession2 =() => {

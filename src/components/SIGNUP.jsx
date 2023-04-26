@@ -4,11 +4,11 @@ import * as Yup from "yup";
 const login =() => {
     const SignupSchema = Yup.object().shape({
         first_name: Yup.string()
-            .min(8, "Too Short!")
+            .min(3, "Too Short!")
             .max(20, "Too Long!")
             .required("Required"),
         last_name: Yup.string()
-            .min(8, "Too Short!")
+            .min(3, "Too Short!")
             .max(20, "Too Long!")
             .required("Required"),
         password: Yup.string()
@@ -33,6 +33,7 @@ const login =() => {
          first_name: "",
          last_name: "",
          email: "",
+         password: "",
          passwordConfirmation: "",
        }}
        validationSchema={SignupSchema}
@@ -46,13 +47,13 @@ const login =() => {
                 <div className="md:flex sm:grid">
                     <div className="grid">
                         <label className="text-[#B2BED0] pb-[5px]">Full Name</label>
-                        <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[5px] mb-[20px] mr-[10px] rounded-lg" type="text" placeholder="First Name"/>
+                        <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[5px] mb-[20px] mr-[10px] rounded-lg" name='first_name' type="text" placeholder="First Name"/>
                     </div>
                     {errors.first_name && touched.first_name ? (
                   <div className="text-[#dd4a4a]">{errors.first_name}</div>
                 ) : null}
                     <div>
-                        <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mt-[30px] rounded-lg" type="text" placeholder="Last Name" />
+                        <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mt-[30px] rounded-lg" name='last_name' type="text" placeholder="Last Name" />
                     </div>
                     {errors.last_name && touched.last_name ? (
                   <div className="text-[#dd4a4a]">{errors.last_name}</div>
@@ -60,21 +61,21 @@ const login =() => {
                 </div>
                 <div className="grid">
                     <label className="text-[#B2BED0] pb-[5px]">Email</label>
-                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[20px] rounded-lg" type="text"/>
+                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[20px] rounded-lg" name='email' type="text"/>
                 </div>
                 {errors.email && touched.email ? (
                   <div className="text-[#dd4a4a]">{errors.email}</div>
                 ) : null}
                 <div className="grid">
                     <label className="text-[#B2BED0] pb-[5px]">Password</label>
-                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[20px] rounded-lg" type="text"/>
+                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[20px] rounded-lg" name='password' type="password"/>
                 </div>
                 {errors.password && touched.password ? (
                   <div className="text-[#dd4a4a]">{errors.password}</div>
                 ) : null}
                 <div className="grid">
                     <label className="text-[#B2BED0] pb-[5px]">Confirm Password</label>
-                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[5px] rounded-lg" type="text"/>
+                    <Field className="border-solid bg-[#F4F8FC] py-[5px] pl-[10px] mb-[5px] rounded-lg" name='passwordConfirmation' type="password"/>
                     {errors.passwordConfirmation && touched.passwordConfirmation ? (
                   <div className="text-[#dd4a4a]">{errors.passwordConfirmation}</div>
                 ) : null}
